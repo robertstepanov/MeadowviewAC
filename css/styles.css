@@ -10,4 +10,23 @@
 
 header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  padding: 0 3em;
+}
+
+nav {
+  width: 40%;
+}
+
+nav ul {
+  list-style: none;
+  justify-content: space-between;
+  display: flex;
+}
+
+nav ul li a {
+  text-decoration: none;
 }
